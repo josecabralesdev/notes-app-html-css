@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+body {
+  font-family: sans-serif;
+  background: #fef6e4;
+  padding: 10px 20px;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+header {
+  align-self: self-end;
+}
+
+header button {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  background: #f582ae;
+  border: 0;
+  padding: 4px 12px;
+  color: #001858;
+  cursor: pointer;
+}
+
+header button:hover {
+  background: #9a3c51;
+  color: #fff;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.note {
+  width: 100%;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+.note header {
+  width: 100%;
+  background: #f582ae;
+  color: #001858;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 15px;
+}
+
+img {
+  width: 22px;
+  cursor: pointer;
+}
+
+img:hover {
+  opacity: 40%;
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  outline: 0;
+  resize: none;
+  padding: 20px;
+  font-size: 20px;
+}
+
+h4 {
+  font-style: italic;
+}
